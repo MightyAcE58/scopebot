@@ -313,13 +313,6 @@ export default function App() {
                 width="158"
                 height="48"
               />
-              {/* <img
-                className="col-span-2 col-start-2 max-h-13 w-full object-contain sm:col-start-auto lg:col-span-1"
-                src="https://tailwindui.com/plus/img/logos/158x48/statamic-logo-gray-900.svg"
-                alt="Statamic"
-                width="158"
-                height="48"
-              /> */}
             </div>
           </div>
         </div>
