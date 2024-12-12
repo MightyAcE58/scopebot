@@ -157,11 +157,6 @@ export default function NavBar() {
                       onClick={handleLogout} 
                       className={`flex items-center gap-x-3 cursor-pointer hover:opacity-80 transition-opacity ${isChatbotPage ? 'text-white' : ''}`}
                     >
-                      <img 
-                        src={user.photoURL || '/default-avatar.png'} 
-                        alt="User avatar" 
-                        className="w-10 h-10 rounded-full"
-                      />
                       <span className={`-mx-3 block rounded-lg px-3 py-2.5 text-base/7 font-semibold ${isChatbotPage ? 'text-white' : 'text-gray-900'}`}>
                         {user.displayName || user.email}
                       </span>

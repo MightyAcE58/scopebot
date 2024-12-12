@@ -62,7 +62,7 @@ function ChatuiApp() {
 
   return (
     <div className="bg-gradient-to-br from-gray-900 via-purple-900 to-black text-white font-sans h-screen flex flex-col pt-4">
-      <div className="conversation-container flex-1 p-10 flex flex-col gap-4 overflow-hidden">
+      <div className="conversation-container flex-1 p-20 flex flex-col gap-4 overflow-hidden">
         <div className="messages-container bg-[#2f302f] p-4 rounded-xl flex-1 overflow-y-auto hide-scrollbar flex flex-col">
           <div className="flex-1 overflow-y-auto">
             {messages.map((message, index) => (
